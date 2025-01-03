@@ -4,7 +4,8 @@
   "description": "lab-async-await",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 5000 --reporter spec"
+    "test": "mocha --timeout 5000 --reporter mocha-junit-reporter",
+    "test-stdout": "mocha --timeout 5000"
   },
   "author": "flatironschool",
   "license": "Included in Repo",
